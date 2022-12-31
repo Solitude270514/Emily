@@ -1,0 +1,64 @@
+/*12/08*/
+#form-div-div-div-div-span-appointment_info {
+    position: relative;
+    font-size: 24px;
+    color: #fafafa;
+}
+/*----------appointment_info---------------*/
+#appointment_info {
+    background-color: rgb(7 7 7 / 0.65);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#appointment_info-form {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    background-color: #A3D1C6;
+    height: 70%;
+    width: 40%;
+    border-radius: 10px;
+    position: relative;
+    top: 15%;
+    left: 30%;  
+}
+#appointment_info-form-x {
+    position: absolute;
+    top: 10px;
+    right:12px
+}
+
+#appointment_info-form-appointment_info {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+}
+#appointment_info-form-appointment_info-span{
+    font-size:50px;
+}
+#appointment_info-form-divbut{
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    text-align:center;
+}
+#appointment_info-form-button-cpre, #appointment_info-form-button-cnext ,#appointment_info-form-button-cnew, #appointment_info-form-button-cdel  {
+    position: relative;
+
+    height: 32px;
+    width: 175px;
+    background: #29464A;
+    border-style: none;
+    border-radius: 5px;
+    color: #e7f8eb;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}

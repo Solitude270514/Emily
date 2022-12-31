@@ -1,0 +1,220 @@
+﻿
+#title {
+    position: relative;
+    top: 75px;
+    width: 100%;
+    text-align: center;
+}
+#title-span {
+    font-size: 56px;
+    color: #0a3632;
+    font-weight: bold;
+}
+#course {
+    position: absolute;
+    left:20%;
+    top:180px;
+    width: 60%;
+}
+#courseform {
+    position: relative;
+    left: 0%;
+    height: 250px;
+    width: 100%;
+}
+
+#courseform-img {
+    position: relative;
+    left: 0%;
+    height: 100%;
+    width: 250px;
+    float: left;
+}
+#courseform-img-img {
+    height: 250px;
+    width: 250px;
+}
+#courseform-title {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+#courseform-title-span{
+    font-size:36px;
+}
+#courseform-s {
+    position:absolute;
+    text-align: right;
+    top:18px;
+    right:24px;
+}
+#courseform-span {
+    font-size: 24px;
+}
+#courseform-text {
+    position: relative;
+    top: 6px;
+    left: 20px;
+    margin-right: 28px;
+    text-align: justify;
+}
+#courseform-text-p {
+    font-size: 18px;
+}
+#courseform-buttom {
+    position: absolute;
+    background-color: #346E71;
+    bottom: 10px;
+    right: 10px;
+    height: 32px;
+    width: 85px;
+    border-style: none;
+    border-radius: 5px;
+    color: #e7f8eb;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+#courseform-buttom-span {
+    font-size: 22px;
+}
+
+
+/*小視窗*/
+#coursewindow-qq {
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+#coursewindow {
+    background-color: rgb(7 7 7 / 0.65);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+#coursewindow-form {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    background-color: #e7f8eb;
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    font-size:26px;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    margin:auto;
+}
+
+#coursewindow-form-title {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    font-weight:bold;
+    text-align: center;
+}
+#coursewindow-form-title-span {
+    font-size: 38px;
+}
+
+#coursewindow-form-a {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    font-size: 28px;
+}
+#coursewindow-form-aa {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-size: 28px;
+}
+
+#coursewindow-form-b {
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    font-size: 28px;
+}
+#coursewindow-form-bb {
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    font-size: 28px;
+}
+
+#coursewindow-form-c {
+    position: absolute;
+    top: 290px;
+    left: 60px;
+    font-size: 28px;
+}
+#coursewindow-form-cc {
+    position: absolute;
+    top: 290px;
+    left: 200px;
+    font-size: 28px;
+}
+
+#coursewindow-form-d {
+    position: absolute;
+    top: 360px;
+    left: 60px;
+    font-size: 28px;
+}
+#coursewindow-form-dd {
+    position: absolute;
+    top: 360px;
+    left: 200px;
+    font-size: 28px;
+}
+
+#coursewindow-form-but {
+    position: absolute;
+    bottom: 100px;
+    height:0px;
+    left:150px;
+    width: 200px;
+    text-align: center;
+}
+
+#coursewindow-form-x {
+    position: absolute;
+    height: 32px;
+    width: 85px;
+    right: 10px;
+    background: #29464A;
+    border-style: none;
+    border-radius: 5px;
+    color: #e7f8eb;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+#coursewindow-form-true {
+    position: absolute;
+    height: 32px;
+    width: 85px;
+    left: 10px;
+    background: #29464A;
+    border-style: none;
+    border-radius: 5px;
+    color: #e7f8eb;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}

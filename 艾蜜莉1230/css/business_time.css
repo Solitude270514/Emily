@@ -1,0 +1,64 @@
+/*12/08*/
+#form-div-div-div-div-span-business_time {
+    position: relative;
+    font-size: 24px;
+    color: #fafafa;
+}
+/*----------business_time---------------*/
+#business_time {
+    background-color: rgb(7 7 7 / 0.65);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#business_time-form {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    background-color: #A3D1C6;
+    height: 70%;
+    width: 40%;
+    border-radius: 10px;
+    position: relative;
+    top: 15%;
+    left: 30%;  
+}
+#business_time-form-x {
+    position: absolute;
+    top: 10px;
+    right:12px
+}
+
+#business_time-form-business_time {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+}
+#business_time-form-business_time-span{
+    font-size:50px;
+}
+#business_time-form-divbut{
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    text-align:center;
+}
+#business_time-form-button-bpre, #business_time-form-button-bnext ,#business_time-form-button-bnew, #business_time-form-button-bdel  {
+    position: relative;
+
+    height: 32px;
+    width: 175px;
+    background: #29464A;
+    border-style: none;
+    border-radius: 5px;
+    color: #e7f8eb;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}

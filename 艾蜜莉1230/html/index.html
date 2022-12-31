@@ -1,0 +1,192 @@
+﻿<?
+	require_once 'db.php';
+	$datas = array();
+	$sql = "SELECT `mname`,`msex`,`macount`,`mpassword` FROM `member_table`";
+	$result = @mysqli_query($link,$sql);
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>艾蜜莉</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/business.css">
+    <link rel="stylesheet" href="../css/consult.css">
+</head>
+<body>
+    <img src="../image/logo.jpg" id="logo-img" />
+
+    <div id="work" class="">
+        <img src="../image/menu_1.png" />
+    </div>
+
+    <div id="form" class="" style="display:none">
+        <div id="form-close" class="">
+            <img src="../image/close_2.png" />
+        </div>
+
+
+        <div id="form-div">
+            <span>01 Member Centre</span>
+            <div id="form-div-div1">
+                <a href="#"><div id="form-div-div-div"><span id="form-div-div-div-div-span-login">登入</span></div></a>
+                <div id="form-div-div-div2"></div>
+                <div id="form-div-div-div3"></div>
+                <a href="#"><div id="form-div-div-div"><span id="form-div-div-div-div-span-register">註冊</span></div></a>
+                <span>會員中心</span>
+            </div>
+            <div id="form-div-div2"></div>
+        </div>
+        <div id="form-div">
+            <span>02 Serve</span>
+            <div id="form-div-div1">
+                <div id="form-div-div-div"><span id="form-div-div-div-div-span-business">營業時間</span></div>
+                <div id="form-div-div-div2"></div>
+                <div id="form-div-div-div3"></div>
+                <a href="#"><div id="form-div-div-div"><span id="form-div-div-div-div-span-consult">一對一諮詢</span></div></a>
+    <span>服務介紹</span>
+</div>
+            <div id="form-div-div2"></div>
+        </div>
+        <div id="form-div">
+            <span>03 Course Introduction</span>
+            <div id="form-div-div1">
+                <div id="form-div-div-div"><span id="form-div-div-div-div-span">課程介紹</span></div>
+                <div id="form-div-div-div2"></div>
+                <div id="form-div-div-div3"></div>
+                <div id="form-div-div-div"><span id="form-div-div-div-div-span">案例照片</span></div>
+                <span>課程介紹</span>
+            </div>
+            <div id="form-div-div2"></div>
+        </div>
+        <div id="form-div">
+            <span>04 About us</span>
+            <div id="form-div-div1">
+                <div id="form-div-div-div"><span id="form-div-div-div-div-span">店家介紹</span></div>
+                <div id="form-div-div-div2"></div>
+                <div id="form-div-div-div3"></div>
+                <div id="form-div-div-div"><span id="form-div-div-div-div-span">常見問題</span></div>
+                <span>關於我們</span>
+            </div>
+            <div id="form-div-div2"></div>
+        </div>
+    </div>
+    <!----------------登入---------------->
+    <div id="login" class="" style="display:none">
+        <div id="login-form">
+            <div id="login-form-x">X</div>
+
+            <div id="login-form-login"><span id="login-form-login-span">登入</span></div>
+            <div id="login-form-email"><span id="login-form-email-span">Email</span></div>
+            <div id="login-form-inpemail"><input id="login-form-inpemail-span" type="email" placeholder="your email"></div>
+            <div id="login-form-paw"><span id="login-form-paw-span">Password</span></div>
+            <div id="login-form-inppaw"><input id="login-form-inppaw-span" type="Password" placeholder="Password"></div>
+
+            <div id="iogin-form-divbut"><button id="login-form-button" type="submit">登入</button></div>
+        </div>
+    </div>
+    <!----------------登入---------------->
+    <!----------------營業時間---------------->
+    <div id="business" class="" style="display:none">
+        <div id="business-form">
+            <!-- <div id="business-form-x">X</div> -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img decoding="sync" src="../image/11.jpg" class="image">
+                </div>
+
+                <div class="mySlides fade">
+                    <img decoding="sync" src="../image/12.jpg" class="image">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)"><</a>
+                <a class="next" onclick="plusSlides(1)">></a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+            <div id="business-form-divbut">
+                <button id="business-form-button-do">我要預約</button>
+                <button id="business-form-button-ndo">我再考慮一下</button>
+            </div>
+        </div>
+    </div>
+    <!----------------營業時間---------------->
+    <!----------------註冊---------------->
+    <div id="register" method="post" class="" style="display:none">
+        <div id="register-form">
+            <div id="register-form-register"><span id="register-form-register-span">註冊</span></div>
+
+            <div id="register-form-name"><span id="register-form-name-span">Name</span></div>
+            <div id="register-form-inpname"><input id="register-form-inpname-span" type="name" placeholder="your name"></div>
+
+            <div id="register-form-sex"><span id="register-form-sex-span">Sex</span></div>
+            <div id="register-form-inpsex"><input id="register-form-inpsex-span" type="sex" placeholder="male or female"></div>
+
+            <div id="register-form-phone"><span id="register-form-phone-span">Phone number</span></div>
+            <div id="register-form-inpphone"><input id="register-form-inpphone-span" type="phone" placeholder="your phone number"></div>
+
+            <div id="register-form-email"><span id="register-form-email-span">Email</span></div>
+            <div id="register-form-inpemail"><input id="register-form-inpemail-span" type="email" placeholder="your email"></div>
+            <!--
+            <div id="register-form-account"><span id="register-form-account-span">Account</span></div>
+            <div id="register-form-inpaccount"><input id="register-form-inpaccount-span" type="account" placeholder="your phone number"></div>
+            -->
+            <div id="register-form-paw"><span id="register-form-paw-span">Password</span></div>
+            <div id="register-form-inppaw"><input id="register-form-inppaw-span" type="Password" placeholder="Password"></div>
+
+            <div id="register-form-divbut">
+                <button id="register-form-button-y" type="submit">確定</button>
+                <button id="register-form-button-n">取消</button>
+            </div>
+            <?php
+            $datas = array();
+            if($_SERVER["REQUEST_METHOD"]=="POST"){
+
+            $username=$_POST["account"];
+            $password=$_POST["pwd"];
+            $check="SELECT * FROM user WHERE account_user='".$username."'";
+            if(mysqli_num_rows(mysqli_query($link,$check))==0){
+            $sql="INSERT INTO `user` (`account_user`, `pwd_user`)VALUES('".$username."','".$password."')";
+            if(mysqli_query($link, $sql)){
+            echo "<label>將自動跳轉頁面</label><br>";
+            echo "<label><a href='login.php'>未成功跳轉頁面請點擊此</a></label>";
+            header("refresh:5;url=login.php");
+            exit;
+            }else{
+            echo "Error creating table: " . mysqli_error($link);
+            }
+            }
+            else{
+            echo "<label>該帳號已有人使用!<br>10秒後將自動跳轉頁面</label><br>";
+            echo "<label><a href='register.php'>未成功跳轉頁面請點擊此</a></label>";
+            header("refresh:10;url=register.php");
+            exit;
+            }
+            }
+            mysqli_close($link);
+            ?>
+        </div>
+    </div>
+    <!----------------註冊---------------->
+    <!--------------一對一諮詢------------->
+    <div id="consult" class="" style="display:none">
+        <div id="consult-form">
+            <a href="#"><div id="consult-form-x">X</div></a>
+            <div id="consult-form-fb"><a href="https://www.facebook.com/AiMiLiShengJiMeiXue" target="_blank"><img src="../image/一對一諮詢連結圖示/facebook.png" /></a></div>
+            <div id="consult-form-ig"><a href="https://www.instagram.com/emily_462278/" target="_blank"><img src="../image/一對一諮詢連結圖示/instagram.png" /></a></div>
+            <div id="consult-form-li"><a href="https://line.me/R/ti/p/@pua8457h" target="_blank"><img src="../image/一對一諮詢連結圖示/line.png" /></a></div>
+        </div>
+    </div>
+    <!--------------一對一諮詢------------->
+    <script src="../js/business.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/consult.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>

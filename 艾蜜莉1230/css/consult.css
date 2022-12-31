@@ -1,0 +1,67 @@
+﻿#form-div-div-div-div-span-consult {
+    position: relative;
+    font-size: 24px;
+    color: #fafafa;
+}
+#consult {
+    background-color: rgb(7 7 7 / 0.65);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#consult-form {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    background-color: #A3D1C6;
+    height: 200px;
+    width: 600px;
+    border-radius: 10px;
+    position: relative;
+    top: 35%;
+    left: 30%;
+}
+#consult-form-x {
+    position: absolute;
+    font-size: 28px;
+    top: 10px;
+    right: 13px
+}
+#consult-form-fb >a> img {
+    height: 100px;
+    width: 100px;
+}
+#consult-form-fb {
+    position: relative;
+    width: 33%;
+    top: 48px;
+    float: left;
+    text-align: center;
+}
+#consult-form-ig >a> img {
+    height: 100px;
+    width: 100px;
+}
+
+#consult-form-ig {
+    position: relative;
+    width: 33%;
+    top: 48px;
+    float: left;
+    text-align: center;
+}
+#consult-form-li >a> img {
+    height: 100px;
+    width: 100px;
+}
+
+#consult-form-li {
+    position: relative;
+    width: 33%;
+    top: 48px;
+    float: left;
+    text-align: center;
+}

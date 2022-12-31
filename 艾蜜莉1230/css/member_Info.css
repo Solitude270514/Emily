@@ -1,0 +1,63 @@
+#form-div-div-div-div-span-member_Info {
+    position: relative;
+    font-size: 24px;
+    color: #fafafa;
+}
+/*----------member_Info---------------*/
+#member_Info {
+    background-color: rgb(7 7 7 / 0.65);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#member_Info-form {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    background-color: #A3D1C6;
+    height: 70%;
+    width: 40%;
+    border-radius: 10px;
+    position: relative;
+    top: 15%;
+    left: 30%;  
+}
+#member_Info-form-x {
+    position: absolute;
+    top: 10px;
+    right:12px
+}
+
+#member_Info-form-member_Info {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+}
+#member_Info-form-member_Info-span{
+    font-size:50px;
+}
+#member_Info-form-divbut{
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    text-align:center;
+}
+#member_Info-form-button-cpre, #member_Info-form-button-cnext ,#member_Info-form-button-cnew, #member_Info-form-button-cdel  {
+    position: relative;
+
+    height: 32px;
+    width: 175px;
+    background: #29464A;
+    border-style: none;
+    border-radius: 5px;
+    color: #e7f8eb;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
